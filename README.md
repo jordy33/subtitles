@@ -1,8 +1,10 @@
 # subtitles
 
+```
 chown -R www-data *
 chgrp -R www-data *
 chmod 755 *
+```
 
 ffmpeg -i serendipity.mp4 -vcodec h264 output.mp4
 ```

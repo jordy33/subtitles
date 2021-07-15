@@ -25,3 +25,8 @@ ffmpeg -i 1080p.mp4 -c:v libx264 -profile:v main -vf format=yuv420p -c:a aac -mo
 
 
 sudo chown -R www-data:www-data /var/www
+
+```
+https://www.happyscribe.com/es/herramientas-de-subtitulacion/convertir-srt-a-vtt
+https://www.syedgakbar.com/projects/dst
+```

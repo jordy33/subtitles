@@ -31,3 +31,10 @@ sudo chown -R www-data:www-data /var/www
 https://www.happyscribe.com/es/herramientas-de-subtitulacion/convertir-srt-a-vtt
 https://www.syedgakbar.com/projects/dst
 ```
+
+Convert mkv to mp4 using vlc
+```
+/Applications/VLC.app/Contents/MacOS/VLC --no-sout-all --audio-track=1 --no-repeat --no-loop -I dummy ./love.mkv --sout='#transcode{vcodec=h264,vb=1024,acodec=mp4a,ab=192,channels=2}:standard{access=file,mux=ts,dst=ouput.mp4}' vlc://quit
+```
+
+
